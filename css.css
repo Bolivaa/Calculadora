@@ -1,0 +1,65 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(6329755-mao-desenhado-formula-e-quimica-formula-matematica-fundo-fisico-formula-fisica-quimica-formula-educacao-e-aprendizagem-fundo-vetor.jpg);
+    color: black;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+#display {
+    width: 95%;
+    padding: 8px;
+    font-size: 24px;
+    color: black;
+    background-color: antiquewhite;
+    
+}
+
+.fundo{
+    width: 400px;
+    height: 380px;
+    background-color: black;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+}
+h1{
+    height: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#but{
+    background-color: #bfddf3;
+    color: black;
+}
+
+#but:hover{
+    background-color: white;
+
+}
+#c{
+    background-color: red;
+    color: antiquewhite;
+}
+
+#c:hover{
+    background-color: antiquewhite;
+    color: black;
+    
+}
+.inicio{
+    justify-content: center;
+    
+}
